@@ -22,38 +22,38 @@
 					<form class="row g-1">
 						<div class="col-md-5">
 							<label for="card#" class="form-label">Card #</label>
-							<input type="number" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX" id="card#" />
+							<input type="number" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX" id="card#" required />
 						</div>
 						<div class="col-md-3">
 							<label for="cvv#" class="form-label">CVV #</label>
-							<input type="number" class="form-control" placeholder="000" id="cvv#" />
+							<input type="number" class="form-control" placeholder="000" id="cvv#" required />
 						</div>
 						<div class="col-md-4">
 							<label for="amount" class="form-label">Amount €</label>
-							<input type="number" class="form-control" placeholder="Amount" id="amount" min="0.00" max="10000.00" step="0.01" />
+							<input type="number" class="form-control" placeholder="Amount" id="amount" min="0.00" max="10000.00" step="0.01" required />
 						</div>
 						<div class="col-md-6">
 							<label for="firstname" class="form-label">Firts name</label>
-							<input type="text" class="form-control" aria-label="First name" id="firstname" />
+							<input type="text" class="form-control" aria-label="First name" id="firstname" required />
 						</div>
 						<div class="col-md-6">
 							<label for="lastname" class="form-label">Last name</label>
-							<input type="text" class="form-control" aria-label="Last name" id="lastname" />
+							<input type="text" class="form-control" aria-label="Last name" id="lastname" required />
 						</div>
 						<div class="col-md-6">
 							<label for="inputCity" class="form-label">City</label>
-							<input type="text" class="form-control" id="inputCity" />
+							<input type="text" class="form-control" id="inputCity" required />
 						</div>
 						<div class="col-md-4">
 							<label for="inputState" class="form-label">State</label>
-							<select id="inputState" class="form-select">
+							<select id="inputState" class="form-select" required>
 								<option selected>Pick a State</option>
 								<option>Madrid</option>
 							</select>
 						</div>
 						<div class="col-md-2">
 							<label for="inputZip" class="form-label">Postal code</label>
-							<input type="text" class="form-control" id="inputZip" />
+							<input type="number" class="form-control" id="inputZip" required />
 						</div>
 						<!-- radio -->
 						<div class="col-md-6">
